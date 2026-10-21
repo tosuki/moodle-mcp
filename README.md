@@ -9,6 +9,16 @@
 
 ---
 
+<p align="center">
+  <a href="assets/preview.mp4">
+    <img src="assets/preview.gif" alt="Moodle MCP Demo Preview" width="720">
+  </a>
+  <br>
+  <em>Autonomous AI agent inspecting courses, materials, and assignment deadlines via Moodle MCP tools.</em>
+</p>
+
+---
+
 ## 📖 Overview
 
 Interacting with enterprise/university Moodle portals often presents three major hurdles:
@@ -62,6 +72,9 @@ The project is structured according to strict domain-driven TypeScript principle
 
 ```
 moodle-mcp/
+├── assets/
+│   ├── preview.gif            # Demo animation for README
+│   └── preview.mp4            # Demonstration video
 ├── src/
 │   ├── types/
 │   │   ├── session.ts         # User profiles, session data, and status interfaces
